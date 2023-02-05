@@ -35,10 +35,11 @@ For Zapier:
 1. For the next action, choose "Webhooks by Zapier".
 1. Set the event to "POST".
 1. Set the URL to `https://mastodon.social/api/v1/statuses?access_token=YOUR_ACCESS_TOKEN`.
-1. Payload Type should be "form".
-1. For the Data section, enter "status" as the key.
-1. For the value, select the feed item title and link. (This is the content to be posted.)
-1. Save and activate!
+2. *****THE ABOVE URL IS NO LONGER WORKING FOR WHATEVER REASON WITH IFTT and this article as such is incorrect as the code will now work**
+3. Payload Type should be "form".
+4. For the Data section, enter "status" as the key.
+5. For the value, select the feed item title and link. (This is the content to be posted.)
+6. Save and activate!
 
 Unfortunately, using webhooks on Zapier is a premium feature and requires a subscription that costs a minimum of $20/month. I have a free account and paying $240/year just to post a few dozen articles to Mastodon sounds ridiculous to me. Generally, I would be happy to pay for a service like this... but not that much. Luckily, using webhooks on IFTTT is free!
 
